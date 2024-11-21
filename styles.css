@@ -1,0 +1,41 @@
+/*.calc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+.calc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    border: 1px solid black;
+}
+
+.digit-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.digit-operator-container {
+    display: flex;
+}
+
+.operator-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.equals {
+    display: flex;
+}
+
+.btn-equals {
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+}
